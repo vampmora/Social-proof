@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+}
+
+.contaner {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.big-font p {
+  padding-bottom: 15px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.top h1 {
+  font-size: 2rem;
+  color: hsl(300, 43%, 22%);
+  margin-bottom: 10px;
+}
+
+.top p {
+  font-size: 0.7rem;
+  opacity: 0.7;
+}
+
+.reviews {
+  color: hsl(300, 43%, 22%);
+  display: flex;
+  flex-wrap: wrap;
+  background-color: hsl(300, 15%, 89%);
+  padding: 15px 30px;
+  margin-bottom: 10px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.rating-star {
+  margin-right: 2rem;
+}
+
+.rating-1 {
+  width: 100%;
+}
+
+.rating-2 {
+  margin-left: 2rem;
+  width: 100%;
+}
+
+.rating-3 {
+  margin-left: 4rem;
+  width: 100%;
+}
+
+/* bottom */
+
+.bottom {
+  margin-top: 70px;
+}
+
+.rating-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: hsl(300, 43%, 22%);
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.profile {
+  display: flex;
+  text-align: center;
+}
+
+.profile img {
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.name {
+  margin-left: 15px;
+}
+
+.name h3 {
+  color: hsl(333, 46%, 77%);
+  padding-top: 30px;
+  line-height: 30px;
+}
+
+.name h5 {
+  color: hsla(302, 59%, 58%, 0.753);
+}
+
+.review p {
+  color: hsl(333, 46%, 77%);
+  font-size: 0.9rem;
+  margin-top: 10px;
+  line-height: 20px;
+  font-weight: 800;
+}
+
+.rating-card-2 {
+  margin-top: 20px;
+}
+
+.rating-card-3 {
+  margin-top: 40px;
+}
+
+@media (max-width: 416px) {
+  .top h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .top p {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .rating-2 {
+    margin-left: 0;
+  }
+  .h3-rate {
+    font-size: 0.8rem;
+  }
+  .rating-3 {
+    margin-left: 0;
+  }
+
+  .card-img {
+    margin-right: 0;
+    align-items: center;
+  }
+  .rating-star {
+    justify-content: center;
+  }
+  .rating-card {
+    width: 100%;
+
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .bottom {
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .rating-card,
+  .profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .rating-2 {
+    margin-left: 0;
+  }
+  .rating-3 {
+    margin-left: 0;
+  }
+}
+
+.attribution {
+  margin-top: 100px;
+  font-size: 11px;
+
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
